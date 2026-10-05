@@ -1,0 +1,2 @@
+dataset,file,path,type,size_mb
+twitch_streamers,datasetV2.csv,C:\Users\Daniil\Documents\GitHub\gaming-data-analysis\raw\twitch\streamers\datasetV2.csv,CSV,0.12
