@@ -1,0 +1,14 @@
+﻿source,expected_directory,directory_exists,file_count,total_mb
+rawg_games,rawg,True,3,6974.07
+steam_games_fronkongames,steam/fronkongames,True,2,1307.83
+steam_reviews,steam/reviews,True,1,2060.77
+steam_recommendations,steam/recommendations,True,4,2134.99
+steam_games_2025,steam/games_2025,True,13,841.52
+steam_games_2021_2025,steam/games_2021_2025,True,2,11.12
+steam_games_artemiloff,steam/games_artemiloff,True,4,1704.57
+steam_monthly_players,steam/monthly_players,True,1,36.13
+metacritic_vs_steam,steam/metacritic_vs_steam,True,4,9.51
+ultimate_games,games/ultimate_games,True,1,27.54
+twitch_streamers,twitch/streamers,True,1,0.12
+twitch_evolution,twitch/evolution,True,2,1.57
+epic_games,epic,True,4,0.26
