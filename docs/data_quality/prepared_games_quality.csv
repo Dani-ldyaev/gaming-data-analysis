@@ -1,0 +1,3 @@
+﻿dataset,file,row_count,missing_name,unique_names
+steam_games,processed\games\steam_games.parquet,144499,1,143026
+rawg_games,processed\games\rawg_games.parquet,899585,0,899585

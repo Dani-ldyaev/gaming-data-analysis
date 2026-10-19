@@ -1,0 +1,6 @@
+﻿file,status,rows,columns_count,size_mb,error
+processed\games\epic_games.parquet,OK,899,17,0.09,
+processed\games\rawg_games.parquet,OK,899585,49,788.52,
+processed\games\steam_games.parquet,OK,144499,43,234.56,
+processed\players\steam_monthly_players.parquet,OK,612265,7,5.9,
+processed\twitch\twitch_games.parquet,OK,21000,12,0.46,

@@ -1,0 +1,4 @@
+﻿source,output,rows,size_mb,status
+raw\twitch\evolution\Twitch_global_data.csv,processed\twitch\twitch_global.parquet,105,0.0,OK
+raw\twitch\streamers\datasetV2.csv,processed\twitch\twitch_streamers.parquet,999,0.04,OK
+raw\steam\games_2025\steam_dataset_2025_csv\reviews.csv,processed\reviews\steam_2025_reviews.parquet,1048148,222.98,OK

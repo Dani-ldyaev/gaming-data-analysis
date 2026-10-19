@@ -1,0 +1,6 @@
+﻿source_file,error
+raw\steam\fronkongames\games.json,"Invalid Input Error: ""maximum_object_size"" of 16777216 bytes exceeded while reading file ""C:/Users/245108/Desktop/gaming-data-analysis/raw/steam/fronkongames/games.json"" (>33554428 bytes).
+ Try increasing ""maximum_object_size"".
+
+LINE 1: DESCRIBE SELECT * FROM read_json_auto('C:/Users/245108/Desktop/gaming-data-analysis...
+                               ^"

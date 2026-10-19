@@ -219,4 +219,7 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-raw/
+# Local datasets and generated data
+/raw/
+/processed/
+/warehouse/*.duckdb
