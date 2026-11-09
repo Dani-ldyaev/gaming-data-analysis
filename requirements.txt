@@ -1,0 +1,11 @@
+
+pandas
+numpy
+pyarrow
+duckdb
+requests
+beautifulsoup4
+python-dotenv
+scikit-learn
+matplotlib
+seaborn

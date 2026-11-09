@@ -223,3 +223,25 @@ __marimo__/
 /raw/
 /processed/
 /warehouse/*.duckdb
+
+
+.env
+.env.*
+!.env.example
+
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+*.duckdb.wal
+
+# API keys
+.env
+
+# Downloaded datasets
+/raw/*
+!/raw/.gitkeep
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
