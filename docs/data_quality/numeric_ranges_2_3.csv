@@ -30,9 +30,9 @@ steam_monthly_players,gain,-231001.16,426446.12
 steam_monthly_players,gain_percent,-1.0,1622960.3394
 steam_monthly_players,peak_players,0.0,3236027.0
 steam_monthly_players,steam_appid,10.0,802870.0
-youtube_search_rows,views,741.0,301092276.0
-youtube_search_rows,likes,31.0,4903862.0
-youtube_search_rows,comments,0.0,90421.0
+youtube_search_rows,views,390.0,301094122.0
+youtube_search_rows,likes,15.0,4903882.0
+youtube_search_rows,comments,0.0,90422.0
 twitch_games,Rank,1.0,200.0
 twitch_games,Month,1.0,12.0
 twitch_games,Year,2016.0,2024.0

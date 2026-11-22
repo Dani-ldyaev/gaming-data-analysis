@@ -12,5 +12,5 @@ twitch_streamers,999,processed/twitch/twitch_streamers.parquet
 steam_game_metadata,50872,processed/recommendations/steam_game_metadata.parquet
 wikidata_games,1000,processed/games/wikidata_games.parquet
 habr_articles,2,processed/text/habr_articles.parquet
-game_match_candidates,108547,processed/games/game_match_candidates.parquet
-game_source_mapping,104155,processed/games/game_source_mapping.parquet
+game_match_candidates,108549,processed/games/game_match_candidates.parquet
+game_source_mapping,104157,processed/games/game_source_mapping.parquet

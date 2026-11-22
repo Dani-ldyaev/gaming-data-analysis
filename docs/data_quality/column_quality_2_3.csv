@@ -57,11 +57,11 @@ steam_monthly_players,gain_raw,large_string,0,0.0
 youtube_search_rows,game_name,string,0,0.0
 youtube_search_rows,video_id,string,0,0.0
 youtube_search_rows,title,string,0,0.0
-youtube_search_rows,description,string,28,9.4
+youtube_search_rows,description,string,25,8.39
 youtube_search_rows,channel_title,string,0,0.0
 youtube_search_rows,published_at,"timestamp[us, tz=UTC]",0,0.0
 youtube_search_rows,views,int64,0,0.0
-youtube_search_rows,likes,int64,4,1.34
+youtube_search_rows,likes,int64,3,1.01
 youtube_search_rows,comments,int64,0,0.0
 twitch_games,Rank,int64,0,0.0
 twitch_games,Game,large_string,1,0.0
@@ -108,9 +108,9 @@ wikidata_games,game,large_string,0,0.0
 wikidata_games,gameLabel,large_string,0,0.0
 wikidata_games,releaseDate,large_string,0,0.0
 wikidata_games,genreLabel,large_string,0,0.0
-wikidata_games,platformLabel,large_string,2,0.2
-wikidata_games,developerLabel,large_string,54,5.4
-wikidata_games,publisherLabel,large_string,20,2.0
+wikidata_games,platformLabel,large_string,0,0.0
+wikidata_games,developerLabel,large_string,154,15.4
+wikidata_games,publisherLabel,large_string,144,14.4
 habr_articles,url,large_string,0,0.0
 habr_articles,title,large_string,0,0.0
 habr_articles,status_code,int64,0,0.0
