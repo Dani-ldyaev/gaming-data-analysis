@@ -1,2 +1,2 @@
-﻿groups_tested,kruskal_statistic,p_value
-19,2890.0875636269875,0.0
+﻿groups_tested,kruskal_statistic,p_value_display
+19,2890.0875636269875,< 1e-300
