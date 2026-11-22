@@ -1,6 +1,6 @@
 ﻿table,column,data_type,missing_count,missing_percent
 steam_games,AppID,string,0,0.0
-steam_games,name,string,0,0.0
+steam_games,name,string,1,0.0
 steam_games,release_date,string,0,0.0
 steam_games,price,double,0,0.0
 steam_games,genres,string,0,0.0
@@ -9,7 +9,7 @@ steam_games,positive,int64,0,0.0
 steam_games,negative,int64,0,0.0
 steam_games,recommendations,int64,0,0.0
 rawg_games,id,int64,0,0.0
-rawg_games,name,string,0,0.0
+rawg_games,name,string,37,0.0
 rawg_games,released,string,0,0.0
 rawg_games,rating,double,880909,97.92
 rawg_games,rating_top,double,878832,97.69
@@ -17,10 +17,10 @@ rawg_games,ratings_count,double,833180,92.62
 rawg_games,reviews_count,double,831475,92.43
 rawg_games,metacritic,double,892455,99.21
 rawg_games,playtime,double,865812,96.25
-rawg_games,genres,string,0,0.0
-rawg_games,platforms,string,0,0.0
-rawg_games,developers,string,0,0.0
-rawg_games,publishers,string,0,0.0
+rawg_games,genres,string,213603,23.74
+rawg_games,platforms,string,4443,0.49
+rawg_games,developers,string,11476,1.28
+rawg_games,publishers,string,669803,74.46
 steam_recommendation_games,app_id,int64,0,0.0
 steam_recommendation_games,title,string,0,0.0
 steam_recommendation_games,date_release,date32[day],0,0.0
@@ -45,13 +45,15 @@ steam_recommendations,review_id,int64,0,0.0
 steam_users,user_id,int64,0,0.0
 steam_users,products,int64,0,0.0
 steam_users,reviews,int64,0,0.0
-steam_monthly_players,month,string,0,0.0
+steam_monthly_players,month,timestamp[us],0,0.0
 steam_monthly_players,avg_players,double,0,0.0
-steam_monthly_players,gain,string,0,0.0
+steam_monthly_players,gain,double,6728,1.1
 steam_monthly_players,gain_percent,double,0,0.0
 steam_monthly_players,peak_players,int64,0,0.0
-steam_monthly_players,name,string,0,0.0
+steam_monthly_players,name,large_string,0,0.0
 steam_monthly_players,steam_appid,int64,0,0.0
+steam_monthly_players,month_raw,large_string,0,0.0
+steam_monthly_players,gain_raw,large_string,0,0.0
 youtube_search_rows,game_name,string,0,0.0
 youtube_search_rows,video_id,string,0,0.0
 youtube_search_rows,title,string,0,0.0
@@ -100,7 +102,7 @@ twitch_streamers,ACTIVE_DAYS_PER_WEEK,double,0,0.0
 twitch_streamers,MOST_ACTIVE_DAY,large_string,0,0.0
 twitch_streamers,DAY_WITH_MOST_FOLLOWERS_GAINED,large_string,0,0.0
 steam_game_metadata,app_id,int64,0,0.0
-steam_game_metadata,description,large_string,0,0.0
+steam_game_metadata,description,large_string,10373,20.39
 steam_game_metadata,tags,list<element: string>,0,0.0
 wikidata_games,game,large_string,0,0.0
 wikidata_games,gameLabel,large_string,0,0.0

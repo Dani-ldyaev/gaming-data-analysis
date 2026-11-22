@@ -1,0 +1,16 @@
+﻿table,rows,parquet
+steam_games,150466,processed/games/steam_games.parquet
+rawg_games,899585,processed/games/rawg_games.parquet
+steam_recommendation_games,50872,processed/recommendations/steam_recommendation_games.parquet
+steam_recommendations,41154794,processed/recommendations/steam_recommendations.parquet
+steam_users,14306064,processed/recommendations/steam_users.parquet
+steam_monthly_players,612265,processed/players/steam_monthly_players.parquet
+youtube_search_rows,298,processed/youtube/youtube_search_rows.parquet
+twitch_games,21000,processed/twitch/twitch_games.parquet
+twitch_global,105,processed/twitch/twitch_global.parquet
+twitch_streamers,999,processed/twitch/twitch_streamers.parquet
+steam_game_metadata,50872,processed/recommendations/steam_game_metadata.parquet
+wikidata_games,1000,processed/games/wikidata_games.parquet
+habr_articles,2,processed/text/habr_articles.parquet
+game_match_candidates,108547,processed/games/game_match_candidates.parquet
+game_source_mapping,104155,processed/games/game_source_mapping.parquet
