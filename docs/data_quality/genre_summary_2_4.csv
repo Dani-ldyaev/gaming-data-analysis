@@ -1,24 +1,24 @@
-﻿primary_genre,games,median
-Action,54946,0.0
-Casual,32343,0.0
-Adventure,29008,0.0
-Indie,13995,0.0
-Simulation,3228,0.0
-RPG,2416,0.0
-Strategy,2060,0.0
-Free To Play,910,0.0
-Racing,640,0.0
-Utilities,362,0.0
-Violent,350,0.0
-Animation & Modeling,349,0.0
-Sports,265,0.0
-Massively Multiplayer,262,0.0
-Design & Illustration,199,0.0
-Education,178,0.0
-Audio Production,141,0.0
-Sexual Content,88,0.0
-Nudity,51,0.0
-Early Access,49,0.0
-Video Production,49,0.0
-Software Training,43,0.0
-Gore,33,0.0
+﻿primary_genre,games,zero_share,median_all,positive_games,median_positive
+Action,54946,0.8347650420412769,0.0,9079.0,492.0
+Casual,32343,0.9054509476548248,0.0,3058.0,274.0
+Adventure,29008,0.8194635962493105,0.0,5237.0,348.0
+Indie,13995,0.8385137549124687,0.0,2260.0,365.0
+Simulation,3228,0.7596034696406444,0.0,776.0,488.5
+RPG,2416,0.7462748344370861,0.0,613.0,671.0
+Strategy,2060,0.7728155339805826,0.0,468.0,466.5
+Free To Play,910,0.9857142857142858,0.0,13.0,327.0
+Racing,640,0.709375,0.0,186.0,653.0
+Utilities,362,0.8812154696132597,0.0,43.0,338.0
+Violent,350,0.9171428571428571,0.0,29.0,232.0
+Animation & Modeling,349,0.8252148997134671,0.0,61.0,223.0
+Sports,265,0.8528301886792453,0.0,39.0,718.0
+Massively Multiplayer,262,0.8854961832061069,0.0,30.0,1005.5
+Design & Illustration,199,0.8894472361809045,0.0,22.0,198.5
+Education,178,0.9943820224719101,0.0,1.0,226.0
+Audio Production,141,0.851063829787234,0.0,21.0,318.0
+Sexual Content,88,0.8181818181818182,0.0,16.0,194.5
+Nudity,51,0.8627450980392157,0.0,7.0,258.0
+Early Access,49,0.8775510204081632,0.0,6.0,2067.0
+Video Production,49,0.8979591836734694,0.0,5.0,263.0
+Software Training,43,1.0,0.0,,
+Gore,33,0.8787878787878788,0.0,4.0,242.5

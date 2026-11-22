@@ -1,0 +1,3 @@
+﻿target,free_games,paid_games,median_free,median_paid,mann_whitney_u,p_value,p_value_display
+recommendations,29394,121072,0.0,0.0,1508443126.5,0.0,< 1e-300
+avg_players_12m,504,3053,31.120000000000005,17.553333333333335,876939.0,4.734962715741189e-07,4.73e-07
