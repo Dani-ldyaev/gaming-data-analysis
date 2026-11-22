@@ -177,3 +177,34 @@
 - `processing_times_2_3.csv` — время этапов обработки.
 
 Отчёты описывают конкретный запуск и обновляются при повторном выполнении ноутбука.
+
+## Аналитические результаты 2.4
+
+### Объединённый профиль игры
+
+Файл: `processed/analysis/cross_source_game_profile_2_4.parquet`; таблица DuckDB: `cross_source_game_profile`. Единица наблюдения — Steam-игра; ключ — `steam_app_id`.
+
+Поля Steam включают `name`, `release_year`, `primary_genre`, `price`, `recommendations`, `positive_share` и `avg_players_12m`. `avg_players_12m` оставлен пропущенным для игр с недостаточно полными данными за период.
+
+Поля RAWG: `rawg_id`, `rawg_rating`, `rawg_ratings_count`, `rawg_metacritic`.
+
+Поля Wikidata: `wikidata_uri`, `wikidata_name`, минимальный и максимальный год выпуска из доступных записей, а также объединённые списки `wikidata_genres`, `wikidata_platforms`, `wikidata_developers`, `wikidata_publishers` и `wikidata_source_rows`.
+
+Поля Twitch: `twitch_months`, `twitch_year_start`, `twitch_year_end`, `twitch_hours_watched`, `twitch_avg_viewers`, `twitch_peak_viewers`. Показатели агрегированы за временной диапазон источника, а не за период Steam Monthly Players.
+
+Поля YouTube: `youtube_video_count`, `youtube_median_views`, `youtube_median_likes`, `youtube_median_comments`. `game_name` исходной таблицы является поисковым запросом. Метрики видео не подтверждают, что ролик посвящён игре.
+
+`external_sources_present` — число источников из RAWG, Wikidata, Twitch и YouTube, представленных в строке профиля. Совпадения по названиям остаются непроверенными.
+
+### Отчёты Habr
+
+- `habr_text_metrics_2_4.csv` — число слов, уникальных слов и числовых упоминаний по статье.
+- `habr_tfidf_terms_2_4.csv` — наиболее значимые TF-IDF-термины каждой статьи.
+- `habr_steam_comparison_2_4.csv` — сравнение опубликованной оценки доли игр без рекомендаций с результатом для релизов Steam 2021–2025 годов.
+
+Корпус содержит две статьи. Эти результаты служат иллюстрацией NLP и контекстным сравнением, а не репрезентативной оценкой индустрии.
+
+### Отчёты межисточниковой интеграции
+
+- `cross_source_coverage_2_4.csv` — число и доля Steam-игр, для которых найдены сведения каждого источника.
+- `wikidata_entity_profile_2_4.csv` — записи Wikidata, сведённые к одной строке на URI игры.
