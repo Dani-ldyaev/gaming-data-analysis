@@ -169,6 +169,7 @@
 
 2.3 создаёт в `docs/data_quality/`:
 
+- `processing_times_2_2.csv` — время получения наборов через KaggleHub, выбора игр из Steam JSON, запросов YouTube, загрузки Habr и Wikidata.
 - `column_quality_2_3.csv` — типы полей и пропуски;
 - `table_summary_2_3.csv` — размеры таблиц и повторы по заданным ключам;
 - `numeric_ranges_2_3.csv` — диапазоны числовых полей;

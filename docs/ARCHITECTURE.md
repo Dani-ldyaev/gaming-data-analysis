@@ -169,7 +169,10 @@ processed/
 
 ## Создаваемые результаты
 
-Ноутбук 2.2 создаёт `docs/data_sources_registry.csv`.
+Ноутбук 2.2 создаёт:
+
+- `processing_times_2_2.csv`;
+- `docs/data_sources_registry.csv`.
 
 Ноутбук 2.3 создаёт отчёты качества в `docs/data_quality/`:
 

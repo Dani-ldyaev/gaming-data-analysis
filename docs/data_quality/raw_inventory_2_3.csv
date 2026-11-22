@@ -15,7 +15,7 @@ raw/steam/steam-games-dataset.zip.kaggle-partial,.kaggle-partial,0.0
 raw/twitch/evolution/Twitch_game_data.csv,.csv,1.56
 raw/twitch/evolution/Twitch_global_data.csv,.csv,0.01
 raw/twitch/streamers/datasetV2.csv,.csv,0.12
-raw/xml/wikidata/wikidata_video_games.xml,.xml,0.7
+raw/xml/wikidata/wikidata_video_games.xml,.xml,0.71
 raw/youtube/youtube_search_results.json,.json,0.12
 raw/youtube/youtube_video_statistics.json,.json,0.04
 raw/youtube/youtube_videos.csv,.csv,0.07
